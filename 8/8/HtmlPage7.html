@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="scripts/jquery-3.3.1.js"></script>
+    <link href="stylesheet1.css" rel="stylesheet" />
+    <!--<link href="content/bootstrap.css" rel="stylesheet" />-->
+    <script src="scripts/umd/popper.js"></script>
+    <script src="plugin.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+
+    <script src="javascript1.js"></script>
+
+    <script type="text/javascript">
+
+ 
+        $(document).ready(function () {
+            $('#menu').animateMenu({ animatePadding: 30, defaultPadding: 10 });
+        });
+    </script>
+  
+
+
+</head>
+<body>
+    <div class="container gmk">
+        <div class="row">
+            <ul id="menu">
+                <li class="col-lg-2">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="../Images/bird.jpg" alt="logo" style="width:40px;">
+                    </a>
+
+                </li>
+                <li class="col-lg-2">
+
+                    <button class="btn-group">
+                        عضویت در سایت
+                    </button>
+
+                </li>
+
+
+                <li class="col-lg-1">
+
+                    <select name="formal">
+                        <option value="webcloud" id="default">
+                            طراحی لوگو
+
+                    </select>
+                    <div class="btn-group  " style="display:inline-table">
+                        <button id="default">طراحی لوگو</button>
+                        <button style="display:none">انواع لوگو</button>
+                        <button style="display:none">نمونه کار </button>
+                        <button style="display:none">سفارش لوگو </button>
+                    </div>
+                </li>
+
+                </li>
+
+                </li>
+                <li class="col-lg-2">
+                    <select>
+                        <option> طراحی گرافیک</option>
+                        <option>کارت ویزیت</option>
+                        <option>طراحی پوستر</option>
+                        <option>
+                            تراکت
+                        </option>
+                        <option>
+                            ست اداری
+                        </option>
+                        <option>
+                            بنر
+                        </option>
+                        <option>
+                            بروشور
+                        </option>
+                        <option>
+                            سفارش طراحی
+                        </option>
+                    </select>
+                </li>
+                <li class="col-lg-1">
+                    <select>
+                        <option>
+                            درباره ما
+
+                        </option>
+                    </select>
+                </li>
+
+                <li class="col-lg-2">
+                    <button aria-controls="drop1" ">
+                        تعرفه ها و قیمت ها
+                    </button>
+
+
+
+                </li>
+                <li class="col-lg-1 ">
+
+                    <div class="btn-group  " style="display:inline-table">
+                        <button id="default">Apple</button>
+                        <button style="display:none">Samsung</button>
+                        <button style="display:none">Sony</button>
+                    </div>
+                </li>
+
+
+                <li class="col-lg-1">
+                    <button>
+                        تماس با ما
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="k" style="background-color:#f1dddd;width:100%;height:550px; display:none">
+        content of tab two
+    </div>
+    <div class="k1" style="background-color:#f1dddd;width:100%;height:550px; display:none">
+        content of tab one
+    </div>
+
+
+</body>
+</html>
